@@ -6,6 +6,8 @@ const io = require('socket.io')(httpServer, {
   }
 });
 
+
+
 // emit the data to the connected client
 io.on('connection', (socket) => {
   console.log('A client connected');
