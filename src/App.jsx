@@ -7,7 +7,7 @@ const App = () => {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    const socket = io('http://localhost:3000', {
+    const socket = io('http://localhost:4000', {
       transports: ['websocket', 'polling', 'flashsocket']
     });
 

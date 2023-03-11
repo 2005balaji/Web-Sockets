@@ -27,8 +27,8 @@ io.on('connection', (socket) => {
   socket.emit('data', data);
 });
 
-httpServer.listen(3000, () => {
-  console.log('Server listening on port 3000');
+httpServer.listen(4000, () => {
+  console.log('WEBSOCKET listening on port 4000');
 });
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
